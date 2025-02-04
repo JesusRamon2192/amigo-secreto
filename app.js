@@ -11,3 +11,19 @@ function agregarAmigo() {
     input.value = "";
   }
 }
+
+
+function sortearAmigo() {
+    
+  if (amigos.length === 0) {
+    alert("No hay amigos disponibles.");
+  } else {
+    let randomIndex = Math.floor(Math.random() * amigos.length);
+    console.log(randomIndex);
+      
+    
+    let amigoSorteado = amigos[randomIndex];
+    document.getElementById("resultado").innerHTML = amigoSorteado;
+  }
+}
+
