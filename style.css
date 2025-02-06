@@ -151,10 +151,26 @@ ul {
     color: var(--color-white);
     background-color: var(--color-button);
     font-size: 16px;
+    margin-bottom: 10px;
 }
 
 .button-draw img {
     margin-right: 40px;
+}
+
+.button-reset {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 40px;
+    color: var(--color-text);
+    font-size: 16px;
+    justify-content: space-evenly;
+}
+
+.button-reset img {
+    margin-right: 20px;
+    width: 20px;
 }
 
 .button-draw:hover {
